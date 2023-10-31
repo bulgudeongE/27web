@@ -1,0 +1,68 @@
+
+*{
+    text-align-last: center;
+    font-family:'Pretendard';
+    margin:0px;
+}
+
+a {
+    text-decoration: none;
+    color :black;
+    margin:0px;
+}
+.head > p {
+    font-weight: 500;
+    text-align: center;
+    font-size : 18px;
+    padding:  20px 0px;
+    display: block;
+    background-color: rgb(125, 145, 131);
+    color:white;
+    max-width: 600px;
+}
+
+.main_text > p {
+    max-width: 600px;
+    text-align: center;
+}
+
+.menu{
+    max-width: 600px;
+    display: flex;
+    width : 100%;
+    padding: 15px 0px 10px;
+    background-color: whitesmoke;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    align-content: center;
+    justify-content: space-evenly;
+    border-top: 1px gainsboro solid;
+    border-right: 1px gainsboro solid;
+    border-left: 1px gainsboro solid;
+    border-radius: 20px 20px 0px 0px;
+}
+.container {
+    width:80%;
+    background: gainsboro;
+    margin: auto;
+    margin-top:50px;
+    border: 1px black solid;
+    font-size: 18px;
+}
+.menu >  a {
+
+    padding: 7px;
+    background-color: whitesmoke;
+    justify-content: center;
+    font-weight: 400;
+    font-size : 15px;
+}
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+@media(max-width:1335px) {
+    h1 {
+        display: inline-block;
+        width:1335px;
+    }
+}
